@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy · Eatlas</title>
+<meta name="description" content="Eatlas has no account and keeps your diary on your iPhone. Meal photos are sent for analysis only after you agree and are never stored.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header class="site">
+    <a class="wordmark" href="./"><img src="img/icon.png" alt="">Eatlas</a>
+    <nav><a href="./">Overview</a><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 10 November 2026</p>
+
+  <div class="card">
+    <p><strong>In short:</strong> Eatlas has no account, no advertising and no
+    tracking. Your diary and your profile stay on your iPhone. When you analyze
+    a meal photo, the photo is sent to our server and to OpenAI to estimate its
+    nutrition, only after you agree, and neither we nor OpenAI keep it beyond
+    what is described below.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Eatlas is made by Nikita Storchai, an individual developer.
+  Questions about this policy:
+  <a href="mailto:storschajnikita@gmail.com">storschajnikita@gmail.com</a>.</p>
+
+  <h2>What stays on your iPhone</h2>
+  <p>Eatlas keeps these on your device only. None of it is sent to us.</p>
+  <ul>
+    <li><strong>Your profile:</strong> the name you choose to enter, sex, age,
+    height, weight, activity level and goal, and the daily targets worked out
+    from them.</li>
+    <li><strong>Your diary:</strong> the meals you log, with their calories,
+    protein, fat, carbs and ingredients.</li>
+    <li><strong>Weekly summaries</strong> written by the coach.</li>
+    <li><strong>Settings and choices,</strong> such as units and whether you
+    agreed to photo analysis.</li>
+  </ul>
+  <p>The widgets read a short summary of today's numbers that the app writes
+  into storage shared with them on the same iPhone. Like other app data, your
+  diary can be included in your iPhone's own backups (iCloud or computer),
+  under your control and Apple's privacy terms.</p>
+
+  <h2>Meal photos</h2>
+  <p>The first time you analyze a photo, Eatlas explains where it goes and asks
+  for your agreement. If you agree:</p>
+  <ul>
+    <li>The photo is made smaller (at most 768 pixels on a side) and its
+    location and camera details are removed on your iPhone.</li>
+    <li>It is sent over an encrypted connection to our server, a Google Cloud
+    function run through Firebase in the United States, which passes it to
+    OpenAI to estimate the meal's nutrition and returns the result to your
+    iPhone.</li>
+    <li>We do not store the photo. We ask OpenAI not to store the request
+    either; OpenAI may still keep it for up to 30 days to detect abuse, under
+    <a href="https://openai.com/policies/api-data-usage-policies">OpenAI's API
+    data policy</a>, and does not use it to train its models.</li>
+    <li>Eatlas does not save the photo on your iPhone; only the meal you
+    confirm goes into your diary.</li>
+  </ul>
+  <p>You can use Eatlas without photo analysis: the barcode scanner and
+  logging a meal again need no photo.</p>
+
+  <h2>Counting daily scans</h2>
+  <p>Photo analysis is limited per day. To count it, our server keeps a
+  one-way hash of the App Store transaction identifier of your copy of the app
+  together with the day's count, for about three days. It cannot be turned back
+  into the identifier and is not linked to your name or Apple Account.</p>
+
+  <h2>Keeping the server for the real app</h2>
+  <p>To make sure requests come from the genuine Eatlas app, every photo
+  analysis carries a short-lived token from Apple's App Attest, checked through
+  Google's Firebase App Check. These tokens prove the app is genuine; they do
+  not identify you. Like any server, ours and its provider record technical
+  logs of requests (for example the time and the result), which are kept for a
+  limited time to keep the service running and secure.</p>
+
+  <h2>Barcodes</h2>
+  <p>When you scan a barcode, Eatlas sends only the barcode number to
+  <a href="https://world.openfoodfacts.org/privacy">Open Food Facts</a>, an open
+  food database, to look up the product's nutrition.</p>
+
+  <h2>The coach</h2>
+  <p>The weekly summary is written by Apple Intelligence on your iPhone. Your
+  meals are not sent anywhere for it.</p>
+
+  <h2>Camera and photos</h2>
+  <p>Eatlas uses the camera to photograph meals and read barcodes, after asking
+  for permission. Photos you pick from your library are chosen through Apple's
+  photo picker, so Eatlas sees only the photo you pick.</p>
+
+  <h2>What we share</h2>
+  <p>Only what is described above, with OpenAI, Google (Firebase and Google
+  Cloud) and Open Food Facts, and only to provide the feature you use. We never
+  sell, rent or share information about you for advertising, and Eatlas
+  contains no advertising or analytics code.</p>
+
+  <h2>Deleting your data</h2>
+  <p>You can delete any meal in the app. Deleting Eatlas removes your diary and
+  profile from your iPhone. The scan count on our server expires on its own
+  after about three days.</p>
+
+  <h2>Health information</h2>
+  <p>Calories and macros from a photo are estimates. Eatlas is not a medical
+  device and does not give medical advice.</p>
+
+  <h2>Children</h2>
+  <p>Eatlas is meant for adults and is not directed at children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted here with a new
+  effective date.</p>
+
+  <footer>Eatlas · <a href="support.html">Support</a> ·
+  <a href="mailto:storschajnikita@gmail.com">storschajnikita@gmail.com</a></footer>
+</main>
+</body>
+</html>
